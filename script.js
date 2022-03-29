@@ -42,4 +42,5 @@ const displayTime = () => {
   seconds.textContent = secondsLeftTillNewYear;
 };
 
+displayTime();
 setInterval(displayTime, 1000);
